@@ -184,7 +184,7 @@ Get-AppxPackage Microsoft.WindowsSoundRecorder | Remove-AppxPackage
 Get-AppxPackage *Solitaire* | Remove-AppxPackage
 
 # Sticky Notes
-Get-AppxPackage Microsoft.MicrosoftStickyNotes | Remove-AppxPackage
+#Get-AppxPackage Microsoft.MicrosoftStickyNotes | Remove-AppxPackage
 
 # Sway
 Get-AppxPackage Microsoft.Office.Sway | Remove-AppxPackage
