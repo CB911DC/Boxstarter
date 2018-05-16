@@ -67,6 +67,17 @@ cinst vcredist2015
 cinst vcredist2017
 if (Test-PendingReboot) { Invoke-Reboot }
 
+# MS Office
+cinst office365proplus
+if (Test-PendingReboot) { Invoke-Reboot }
+
+# FastStone Capture
+cinst fscapture
+if (Test-PendingReboot) { Invoke-Reboot }
+
+# Citrix Reciever
+# cinst citrix-receiver
+
 # Dev Tools
 #-----Uncomment this section for Dev Tools ---------------
 #cinst Git
