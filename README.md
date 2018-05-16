@@ -1,12 +1,15 @@
 # Boxstarter
 
-[Boxstarter](http://boxstarter.org/) setup scripts for setting up a customized windows environment in a completely unattended manner using PowerShell and [Chocolatey](https://chocolatey.org/) packages. The [Devenv.ps1](roles/Devenv.ps1) boxstarter script installs my development environment for C#.Net and Java/Scala web development. Beyond unattended software installs, boxstarter will set:
+[Boxstarter](http://boxstarter.org/) setup scripts for setting up a customized windows environment in a completely unattended manner using PowerShell and [Chocolatey](https://chocolatey.org/) packages. Beyond unattended software installs, boxstarter will set:
 
 * Explorer Options: Show hidden files/folders, Show file extensions
+* Enable Remote Desktop
 * Taskbar Options: Small taskbar, always combine taskbar buttons
 * Set PowerShell execution policy to "Unrestricted"
 * Install all pending Windows Updates
-* Install Microsoft Hyper-V virtualization
+* Uninstalls Various Windows Store Applications
+* Cleans up some files
+* Temporarly disables UAC and MS Updates during process
 
 
 
