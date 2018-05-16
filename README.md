@@ -16,7 +16,7 @@
 Invoke the Boxstarter WebLauncher by pasting to the URL below in Internet Explorer or by invoking it as a START command in either the Command prompt or PowerShell:
 
 ```
-START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/bcowdery/boxstarter/master/roles/Devenv.ps1
+START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/CB911DC/Boxstarter/master/roles/Base_env.ps1
 ```
 
 *You can use any browser that supports "Click Once" applications. This is limited to IE unless you add extensions to [Chrome](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb) and [Firefox](https://addons.mozilla.org/en-us/firefox/addon/fxclickonce/). You can also use the Command prompt or a Powershell console, both using the same command as long as IE is your default browser. This is rarely an issue as IE is the most common default on new machines anyways.*
@@ -26,7 +26,7 @@ START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/bco
 You can also run the installer scripts from a local clone of this repository using the `install [role]` command. This script will install Chocolatey and the Boxstarter shell before running the Boxstarter package.
 
 ```
-> install Devenv
+> install Base
 ```
 
 
